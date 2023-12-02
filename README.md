@@ -82,3 +82,9 @@ When done with this lesson you can `control + c` to shut down your docker contai
 
 1. To remove containers, `docker rm $(docker ps -a -q --filter name=XXX)`, where XXX is the lesson number you want removed (ex: 001).
 2. To remove images, `docker rmi $(docker images --filter label=lesson.number=X -a -q)`, where X is the number you want removed (ex: 1, ex: 10)
+
+##
+
+
+## Justin Alba
+
